@@ -1,0 +1,12 @@
+Please use following command to run the script:
+
+perl get_amr_count.pl {Vet-LIRN input file} {NAHLN input file} amr_ncbi.txt > {output file}
+
+where {Vet-LIRN input file}, {NAHLN input file} and {output file} are .txt files, not excel files. 
+
+{Vet-LIRN input file} should be similar to the 2020_Vet-LIRN_E.coli.txt file that fourth column is the AMR genotypes core information and the fifth column is the isolation source (UTI or Other)
+
+{NAHLN input file} should be similar to the 2020_NAHLN_E.coli.txt file that eleventh column is the AMR genotypes core information and the fourth column is the isolation source (UTI or Other)
+
+Please use attached amr_ncbi.txt file as the third input file.
+
